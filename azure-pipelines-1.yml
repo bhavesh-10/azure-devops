@@ -2,9 +2,7 @@ trigger:
 - master
 
 pool:
-  name: 'Default'  
-  demands:
-  - agent.name -equals Default  
+  vmImage: 'ubuntu-latest'  # Use a Microsoft-hosted agent image
 
 steps:
 - task: NodeTool@0
