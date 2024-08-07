@@ -1,5 +1,5 @@
 trigger:
-- master
+- azure-pipelines2
 
 pool:
   name: 'Default'  # Use the pool where your self-hosted agent is registered
