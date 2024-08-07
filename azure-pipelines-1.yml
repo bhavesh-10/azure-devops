@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'  # Use a Microsoft-hosted agent image
+  name: 'Default'  # Use the pool where your self-hosted agent is registered
 
 steps:
 - task: NodeTool@0
